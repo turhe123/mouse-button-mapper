@@ -1,0 +1,60 @@
+{
+  "seo_title": "Mouse button remapper for macOS",
+  "seo_description": "Free, open-source macOS utility that gives extra mouse buttons real jobs. Per-app profiles, custom shortcuts, Spaces control and mouse-only scroll tuning.",
+  "hero_title_line1": "Every mouse button",
+  "hero_title_accent": "finally has a job.",
+  "hero_sub": "Record any extra mouse button and assign it a shortcut, a Space switch, Mission Control or an app launch, with separate profiles per app. Press ⌃⌥⌘M anytime to pause mapping.",
+  "features_title": "Built for side buttons.",
+  "features_sub": "A small menu bar app that remaps buttons 3 and up, follows the app you are using, and leaves your trackpad alone.",
+  "features": [
+    {
+      "icon": "cursor",
+      "title": "Record, then assign",
+      "desc": "Click Record, press a button on your mouse, and the app learns its number. Middle, back, forward and beyond are all supported."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Shortcuts and system actions",
+      "desc": "Send a recorded key combo, switch Spaces, open Mission Control, show the desktop, launch an app, middle click, copy, paste or play/pause."
+    },
+    {
+      "icon": "window",
+      "title": "Per-app profiles",
+      "desc": "Profiles are keyed by app, with a Default as fallback, and switch automatically with the frontmost app. A warning flags profiles that override Default."
+    },
+    {
+      "icon": "sliders",
+      "title": "Mouse-only scroll tuning",
+      "desc": "Set a wheel speed from 0.5x to 5x, reverse direction for the mouse only, and hold Option to scroll 4x faster. Trackpads are untouched."
+    },
+    {
+      "icon": "shield",
+      "title": "Safe by design",
+      "desc": "Left and right buttons are never remapped, and the ⌃⌥⌘M hotkey works even while paused. If Accessibility access is revoked, you get a warning instead of a crash."
+    },
+    {
+      "icon": "lock",
+      "title": "Local and offline",
+      "desc": "No network connections, no analytics, no third-party dependencies. Profiles are stored as a JSON file on your Mac."
+    }
+  ],
+  "permissions_step": "When prompted, grant Accessibility access in System Settings › Privacy & Security › Accessibility so the app can see and remap mouse buttons.",
+  "faq": [
+    {
+      "q": "Is MouseButtonMapper free and open source?",
+      "a": "Yes. It is free, released under the MIT license, and the full source is on GitHub. It uses only Apple frameworks and has no third-party dependencies."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Only Accessibility. The app uses it to detect extra mouse buttons and scroll events, swallow the ones you remapped, and post the replacement actions. It does not request Screen Recording or Microphone access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your profiles are saved locally as JSON at ~/Library/Application Support/MouseButtonMapper/profiles.json. Nothing is sent over the network."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}

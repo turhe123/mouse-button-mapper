@@ -1,5 +1,7 @@
 # MouseButtonMapper
 
+**🌐 Website:** [turhe123.github.io/mouse-button-mapper](https://turhe123.github.io/mouse-button-mapper/)
+
 Give every extra mouse button a job, with per-app profiles, scroll speed and pointer speed settings.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -30,7 +32,17 @@ MouseButtonMapper does **not** change hardware pointer acceleration, because pub
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-buttons.png" alt="MouseButtonMapper Settings window showing the Buttons tab" width="720"></p>
+
+<p align="center"><em>The Buttons tab of Settings, with the Default profile in the sidebar, a Record button for learning mouse buttons, and the mouse-wheel scrolling options.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-menu.png" alt="MouseButtonMapper menu bar menu" width="560"></p>
+
+<p align="center"><em>The menu bar menu with the Enabled toggle and its ⌃⌥⌘M hotkey, the active profile, and quick access to Settings.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-general.png" alt="MouseButtonMapper Settings window showing the General tab" width="560"></p>
+
+<p align="center"><em>The General tab with Launch at login, Show in Dock, and a shortcut to System Settings › Mouse for pointer speed.</em></p>
 
 ## Install
 
